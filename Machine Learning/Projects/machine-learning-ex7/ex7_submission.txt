@@ -1,0 +1,87 @@
+Finding closest centroids.
+
+Closest centroids for the first 3 examples:
+ 1 3 2
+(the closest centroids should be 1, 3, 2 respectively)
+Program paused. Press enter to continue.
+
+Computing centroids means.
+
+Centroids computed after initial finding of closest centroids:
+ 2.428301 3.157924
+ 5.813503 2.633656
+ 7.119387 3.616684
+
+(the centroids should be
+   [ 2.428301 3.157924 ]
+   [ 5.813503 2.633656 ]
+   [ 7.119387 3.616684 ]
+
+Program paused. Press enter to continue.
+
+Running K-Means clustering on example dataset.
+
+K-Means iteration 1/10...
+Press enter to continue.
+K-Means iteration 2/10...
+Press enter to continue.
+K-Means iteration 3/10...
+Press enter to continue.
+K-Means iteration 4/10...
+Press enter to continue.
+K-Means iteration 5/10...
+Press enter to continue.
+K-Means iteration 6/10...
+Press enter to continue.
+K-Means iteration 7/10...
+Press enter to continue.
+K-Means iteration 8/10...
+Press enter to continue.
+K-Means iteration 9/10...
+Press enter to continue.
+K-Means iteration 10/10...
+Press enter to continue.
+
+K-Means Done.
+
+Program paused. Press enter to continue.
+
+Running K-Means clustering on pixels from an image.
+
+K-Means iteration 1/10...
+K-Means iteration 2/10...
+K-Means iteration 3/10...
+K-Means iteration 4/10...
+K-Means iteration 5/10...
+K-Means iteration 6/10...
+K-Means iteration 7/10...
+K-Means iteration 8/10...
+K-Means iteration 9/10...
+K-Means iteration 10/10...
+Program paused. Press enter to continue.
+
+Applying K-Means to compress an image.
+
+Program paused. Press enter to continue.
+>>
+>> submit
+== Submitting solutions | K-Means Clustering and PCA...
+Login (email address): aghoshpro@gmail.com
+Token: 3vC5feBqxJs81iuZ
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  5637  100  1017  100  4620   2244  10197 --:--:-- --:--:-- --:--:-- 12471
+warning: findstr is obsolete; use strfind instead
+warning: strmatch is obsolete; use strncmp or strcmp instead
+==
+==                                   Part Name |     Score | Feedback
+==                                   --------- |     ----- | --------
+==            Find Closest Centroids (k-Means) |  30 /  30 | Nice work!
+==            Compute Centroid Means (k-Means) |  30 /  30 | Nice work!
+==                                         PCA |  20 /  20 | Nice work!
+==                          Project Data (PCA) |  10 /  10 | Nice work!
+==                          Recover Data (PCA) |  10 /  10 | Nice work!
+==                                   --------------------------------
+==                                             | 100 / 100 |
+==
+>>

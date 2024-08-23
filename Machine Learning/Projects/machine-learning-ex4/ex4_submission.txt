@@ -1,0 +1,47 @@
+The above two columns you get should be very similar.
+(Left-Your Numerical Gradient, Right-Analytical Gradient)
+
+If your backpropagation implementation is correct, then
+the relative difference will be small (less than 1e-9).
+
+Relative Difference: 2.15598e-11
+
+
+Cost at (fixed) debugging parameters (w/ lambda = 3.000000): 0.576051
+(for lambda = 3, this value should be about 0.576051)
+
+Program paused. Press enter to continue.
+
+Training Neural Network...
+Iteration    50 | Cost: 4.666999e-01
+Program paused. Press enter to continue.
+
+Visualizing Neural Network...
+
+Program paused. Press enter to continue.
+
+Training Set Accuracy: 96.040000
+
+(i-search)`': submit
+>> submit
+
+== Submitting solutions | Neural Networks Learning...
+Login (email address): aghoshpro@gmail.com
+Token: icteR7eC0m3Mi9SK
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2102  100  1055  100  1047   2430   2411 --:--:-- --:--:-- --:--:--  4854
+==
+==                                   Part Name |     Score | Feedback
+==                                   --------- |     ----- | --------
+==               Feedforward and Cost Function |  30 /  30 | Nice work!
+==                   Regularized Cost Function |  15 /  15 | Nice work!
+==                            Sigmoid Gradient |   5 /   5 | Nice work!
+==   Neural Network Gradient (Backpropagation) |  40 /  40 | Nice work!
+==                        Regularized Gradient |  10 /  10 | Nice work!
+==                                   --------------------------------
+==                                             | 100 / 100 |
+==
+>>
+
+

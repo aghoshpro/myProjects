@@ -1,0 +1,41 @@
+Visualizing example dataset for outlier detection.
+
+Program paused. Press enter to continue.
+Visualizing Gaussian fit.
+
+Program paused. Press enter to continue.
+Best epsilon found using cross-validation: 8.990853e-05
+Best F1 on Cross Validation Set:  0.875000
+   (you should see a value epsilon of about 8.99e-05)
+   (you should see a Best F1 value of  0.875000)
+
+Program paused. Press enter to continue.
+Best epsilon found using cross-validation: 1.377229e-18
+Best F1 on Cross Validation Set:  0.615385
+   (you should see a value epsilon of about 1.38e-18)
+   (you should see a Best F1 value of 0.615385)
+# Outliers found: 117
+
+>> submit
+== Submitting solutions | Anomaly Detection and Recommender Systems...
+Login (email address): aghoshpro@gmail.com
+Token: fwcJZMlrTKjlyfVD
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2159  100  1184  100   975   1684   1387 --:--:-- --:--:-- --:--:--  3075
+warning: findstr is obsolete; use strfind instead
+warning: strmatch is obsolete; use strncmp or strcmp instead
+==
+==                                   Part Name |     Score | Feedback
+==                                   --------- |     ----- | --------
+==                Estimate Gaussian Parameters |  15 /  15 | Nice work!
+==                            Select Threshold |  15 /  15 | Nice work!
+==                Collaborative Filtering Cost |  20 /  20 | Nice work!
+==            Collaborative Filtering Gradient |  30 /  30 | Nice work!
+==                            Regularized Cost |  10 /  10 | Nice work!
+==                        Regularized Gradient |  10 /  10 | Nice work!
+==                                   --------------------------------
+==                                             | 100 / 100 |
+==
+>>
+䇣

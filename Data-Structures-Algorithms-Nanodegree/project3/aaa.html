@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.0/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"Project: Problems vs. Algorithms","children":[{"content":"Problem 1: Finding the Square Root of an Integer","children":[{"content":"Design","children":[],"payload":{"lines":"18,19"}},{"content":"Big O Space Complexity","children":[],"payload":{"lines":"22,23"}},{"content":"Big O Time Complexity","children":[],"payload":{"lines":"26,27"}}],"payload":{"lines":"16,17"}},{"content":"Problem 2: Search in a Rotated Sorted Array","children":[{"content":"Design","children":[],"payload":{"lines":"34,35"}},{"content":"Big O Space Complexity","children":[],"payload":{"lines":"38,39"}},{"content":"Big O Time Complexity","children":[],"payload":{"lines":"42,43"}}],"payload":{"lines":"32,33"}},{"content":"Problem 3: Rearrange Array Elements","children":[{"content":"Design","children":[],"payload":{"lines":"50,51"}},{"content":"Big O Space Complexity","children":[],"payload":{"lines":"56,57"}},{"content":"Big O Time Complexity","children":[],"payload":{"lines":"60,61"}}],"payload":{"lines":"48,49"}},{"content":"Problem 4: Dutch National Flag Problem","children":[{"content":"Design","children":[],"payload":{"lines":"68,69"}},{"content":"Big O Space Complexity","children":[],"payload":{"lines":"72,73"}},{"content":"Big O Time Complexity","children":[],"payload":{"lines":"76,77"}}],"payload":{"lines":"66,67"}},{"content":"Problem 5: Autocomplete With Tries","children":[{"content":"Design","children":[],"payload":{"lines":"84,85"}},{"content":"Big O Space Complexity","children":[],"payload":{"lines":"88,89"}},{"content":"Big O Time Complexity","children":[],"payload":{"lines":"92,93"}}],"payload":{"lines":"82,83"}},{"content":"Problem 6: Max and Min in a Unsorted Array","children":[{"content":"Design","children":[],"payload":{"lines":"100,101"}},{"content":"Big O Space Complexity","children":[],"payload":{"lines":"104,105"}},{"content":"Big O Time Complexity","children":[],"payload":{"lines":"108,109"}}],"payload":{"lines":"98,99"}},{"content":"Problem 7: HTTPRouter using a Trie","children":[{"content":"Design","children":[],"payload":{"lines":"116,117"}},{"content":"Big O Space Complexity","children":[],"payload":{"lines":"120,121"}},{"content":"Big O Time Complexity","children":[],"payload":{"lines":"124,125"}}],"payload":{"lines":"114,115"}}],"payload":{"lines":"0,1"}},{})</script>
+</body>
+</html>
