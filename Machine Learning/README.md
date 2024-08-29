@@ -1,10 +1,10 @@
 # Machine Learning by Stanford University (Coursera)
 
-This repository contains all the programming assignments, quizzes, and lecture materials of the course [Machine Learning by Stanford University](https://www.coursera.org/learn/machine-learning/) taught by Andrew Ng on Coursera.
+This repository contains all the course programming assignments, quizzes, and lecture materials [Machine Learning by Stanford University](https://www.coursera.org/learn/machine-learning/) taught by Andrew Ng on Coursera.
 
 ## Take Away
 
-After completion I gained a intermediate level idea of some common machine learning algorithms and how it works.
+After completion, I gained an intermediate idea of some common machine learning algorithms and how they work.
 
 ## Certificate
 
@@ -20,7 +20,7 @@ After completion I gained a intermediate level idea of some common machine learn
 
 ## Projects
 
-### - [EX - 1](https://github.com/SHANK885/Machine-Learning-Andrew-Ng/tree/master/Assignments/machine-learning-ex1) : _Implementing and visualizing linear regression using gradient descent as optimizer. (Accuracy)_
+### - [EX - 1](https://github.com/SHANK885/Machine-Learning-Andrew-Ng/tree/master/Assignments/machine-learning-ex1): _Implementing and visualizing linear regression using gradient descent as optimizer. (Accuracy)_
 
 ![](/Visualizations/ex1.png)
 
