@@ -1,4 +1,4 @@
-# Wine Review Data Analysis
+# *Sip & Script*: A Data-Driven Journey Through the World of Wine 🍷
 
 ## Installations
  - NumPy
@@ -20,8 +20,5 @@ For this project I was interested in conducting exploratory data analysis using 
 
 I want to explore the data and communicate my findings via a blog post on Medium in what is hopefully an engaging post which gives the reader insight into the questions posed. 
 
-## Medium Blog Post 
+## Blog Post 
 The main findings of the code can be found at [Medium Blog](https://medium.com/@aghoshpro/sip-script-a-data-driven-journey-through-the-world-of-wine-d9d05d6dcf4e)
-
-## Licensing, Authors, Acknowledgements, etc.
-Acknowledgement should go to [Kaggle](https://www.kaggle.com/zynicide/wine-reviews) and Zackthoutt for providing the dataset. Acknowledgement should also go to [DataCamp](https://www.datacamp.com/community/tutorials/wordcloud-python) for their excellent WordCloud tutorial.
