@@ -1,15 +1,5 @@
 # *Sip & Script*: A Data-Driven Journey Through the World of Wine 🍷
 
-## Installations
- - NumPy
- - Pandas
- - Seaborn
- - Matplotlib
- - Wordcloud
- - Pillow
- 
-No additional installations beyond the Anaconda distribution of Python and Jupyter notebooks.
-
 ## Project Motivation
 For this project I was interested in conducting exploratory data analysis using a [Wine Review dataset found on Kaggle](https://www.kaggle.com/zynicide/wine-reviews) containing approximately 130k reviews from the [Wine Enthusiast](https://www.winemag.com/?s=&drink_type=wine) to better understand:
  - Where does the best wine in the world come from?
@@ -19,6 +9,16 @@ For this project I was interested in conducting exploratory data analysis using 
  - What words are most used when talking about wine?
 
 I want to explore the data and communicate my findings via a blog post on Medium in what is hopefully an engaging post which gives the reader insight into the questions posed. 
+
+## Library Installations
+ - NumPy
+ - Pandas
+ - Seaborn
+ - Matplotlib
+ - Wordcloud
+ - Pillow
+ 
+No additional installations beyond the Anaconda distribution of Python and Jupyter notebooks.
 
 ## Blog Post 
 The main findings of the code can be found at [Medium Blog](https://medium.com/@aghoshpro/sip-script-a-data-driven-journey-through-the-world-of-wine-d9d05d6dcf4e)
