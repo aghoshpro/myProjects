@@ -18,10 +18,7 @@ For this project I was interested in conducting exploratory data analysis using 
  - What is the best wine in each price bracket?
  - What words are most used when talking about wine?
 
-I wanted the opportunity to explore the data and communicate my findings via a blog post on Medium in what is hopefully an engaging post which gives the reader insight into the questions posed. 
-
-## File Descriptions
-There is one exploratory notebook available here to showcase my work related to the questions posed. Markdown cells were used throughout to explain the process taken.
+I want to explore the data and communicate my findings via a blog post on Medium in what is hopefully an engaging post which gives the reader insight into the questions posed. 
 
 ## Medium Blog Post 
 The main findings of the code can be found at [Medium Blog](https://medium.com/@aghoshpro/sip-script-a-data-driven-journey-through-the-world-of-wine-d9d05d6dcf4e)
