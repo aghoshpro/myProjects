@@ -1,96 +1,85 @@
-# Udacity's Data Structure and Algorithm Nanodegree
+# Data Structures & Algorithms Nanodegree
 
-In this course you will learn data structures and algorithms by solving 80+ practice problems. You will begin each course by learning to solve defined problems related to a particular data structure and algorithm. By the end of each course, you would be able to evaluate and assess different data structures and algorithms for any open-ended problem and implement a solution based on your design choices.
+This repository contains all my solutions to the tutorials and projects of the [Udacity Data Structures & Algorithms Nanodegree Course](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256). This course helped me refresh my grasp of data structures and algorithms by requiring me to solve over 80+ practice questions. I start each course by learning how to tackle defined issues with a specific data structure and technique. At the end of each course, I would be able to analyse and compare various data structures and algorithms for any open-ended challenge, as well as create a solution based on my design decisions.
 
-Course Outline
+## Certificate
 
-**Intro**
+[<img src="./DS-Certificate.png">](https://www.udacity.com/certificate/e/374147a2-58bd-11ef-8bca-07d58ffd8639)
 
-* Welcome
-* Getting Help and Support
-* Python Refresher
-* How to Solve Problems
-   * A systematic way of approaching and breaking down problems
-* Efficiency
-   * Understanding the importance of efficiency when working with data structures and algorithms. 
-* Project 1 - Unscramble CS Problems
-   * Complete five tasks based on a fabricated set of calls and texts exchanged during September 2016
-   * Use Python to analyze and answer questions about the texts and calls contained in the dataset
-   * Perform run time analysis of your solution and determine its efficiency
-  
-  
-**Data Structures**
+## Course 1: Introduction
 
-* Arrays and Linked Lists
-* Build Stacks and Queues
-* Apply Recursion to Problems
-* Trees - basic trees, traversal & binary search trees
-* Maps and Hashing
-* Project  2 - Show Me the Data Structures: implement appropriate data structures and corresponding methods
-   1. Least Recently Used (LRU) Cache
-   2. File Recursion 
-   3. Huffman Coding
-   4. Active Directory
-   5. Blockchain
-   6. Union and Intersection
-   7. Show Me the Data Structures
-         * Include three test cases for each solution
-         * In separate text file, write explanation for using given data structure and explain the time and speed efficiency for each solution.
-         
+Get an overview of your program. Meet your instructors, and refresh your python skills. Learn the framework to
+deconstruct any open-ended problem and then understand the concepts of time and space complexity, essential tools
+for evaluating different data structure & algorithms.
 
-**Basic Algorithms**
-
-* Basic Algorithms
-* Sorting Algorithms
-* Faster Divide & Conquer
-* Project 3 - Problems vs. Algorithms
-   1. Square Root of an Integer
-   2. Search in a Rotated, Sorted Array
-   3. Rearrange Array Digits
-   4. Dutch National Flag Problem
-   5. Autocomplete with Tries
-   6. Unsorted Integer Array
-   7. Request Routing in a Web Server with a Trie
-   
-
-**Advanced Algorithms**
-
-* Greedy Algorithms
-* Graph Algorithms
-* Dynamic Programming
-* A-Star (A*) Algorithm 
-* Project 4 - Route Planner **
-   * In this project, you will build a route-planning algorithm like the one used in Google Maps to calculate the shortest path between two points on a map. 
-  
-
-#### ** Project 4 Notes:
-
-Project #4 notebook requires [plotly](https://plot.ly/python/getting-started/). However, trying to run the notebook locally resulted in this error:
+- Lesson 1: Introduction
+- Lesson 2: Python Refresher
+- Lesson 3: How to Solve Problems
+- Lesson 4: Big O Notation
 
 ```
-ImportError: 
-The plotly.plotly module is deprecated,
-please install the chart-studio package and use the
-chart_studio.plotly module instead.
+Project 1: Unscramble Computer Science Problems
+Deconstruct a series of open-ended problems into smaller components (e.g, inputs, outputs, series of functions).
 ```
 
-Also just changing `import plotly.plotly as py` in the helpers.py to `import chart_studio.plotly as py` does not work. 
+## Course 2: Data Structures
 
-Throws an error `AttributeError: 'Graph' object has no attribute '_node'`
+Learn different data structures that can be used to store data. Implement different methods used to manipulate these
+data structures and examine the efficiency. Understand the advantages and applications of different data structures.
+Learn how to approach open ended problems (either in interviews or in real-world scenarios) and select appropriate
+data structures based on requirements.
 
-**_Possible Solution_** 
+- Lesson 1: Collection data structures (lists, arrays, linked lists, queues, stack)
+- Lesson 2: Recursion
+- Lesson 3: Trees
+- Lesson 4: Maps and Hashing
 
-* https://stackoverflow.com/questions/49016596/networkx-digraph-attribute-error-self-succ/49016885#49016885
+_Sample Practice Problems: Reverse Strings, Hamming Distance, Reverse a Linked List, Linked List Loop Detection,_
+_Balancing Brackets, Building Queue using Stacks, Tree Traversals, Checking Binary Search Tree, String Key Hash_
+_table_
 
-**Additional Info:**
+```
+Project 2: Show Me the Data Structures
+Solve a series of open-ended practice problems such as LRU Cache, Private Blockchain, File Recursion and
+many more. Hone your skills to identify and implement appropriate data structures and corresponding methods
+which meet given constraints.
+```
 
-* https://networkx.github.io/documentation/stable/release/migration_guide_from_1.x_to_2.0.html
+## Course 3: Basic Algorithms
 
-**UPDATE NOTE**
-It appears registration and an API key are required to use chart_studio.plotly.
+Learn and implement basic algorithms such as searching and sorting on different data structures and examine the
+efficiency of these algorithms. Use recursion to implement these algorithms and then learn how some of these
+algorithms can be implemented without recursion. Practice selecting and modifying these algorithms for a variety of
+interview problems.
 
-## License
+- Lesson 1: Binary Search
+- Lesson 2: Sorting Algorithms
+- Lesson 3: Divide & Conquer Algorithms
 
-The contents of this repository are covered under the [MIT License](mit_license.md)
+_Sample Practice Problems: Randomized Binary Search, K-smallest elements using Heaps, Build Red-Black Tree,_
+_bubble sort, merge sort, quick sort, sorting strings, Linear-time median finding_
 
+```
+Project 3: ​ Problems vs. Algorithms
+A series of real-world open ended problems such as request routing for web server, search-term auto-completion
+and Fibonacci heap which train you to apply suitable data structures and algorithms under different context.
+```
 
+## Course 4: Advanced Algorithms
+
+Build on your algorithm skills by learning more advanced algorithms such as brute-force greedy algorithms, graph
+algorithms, and dynamic programming, which optimizes recursion by storing results to sub problems.
+
+- Lesson 1: Greedy Algorithms
+- Lesson 2: Graph Algorithms
+- Lesson 3: Dynamic Programming
+- Lesson 4: Linear Programming
+
+_Sample Practice Problems: Graph Traversals, Dijkstra's Algorithm, Shortest Hops, A Search, Longest Palindromic, subsequence, web crawler_
+
+```
+Project 4: ​ Route Planner
+In this project, you will build a route-planning algorithm like the one used in Google Maps to calculate the shortest
+path between two points on a map. You will first select and implement appropriate data-structure to represent
+points on a map and then implement the A* algorithm to find shortest path.
+```
