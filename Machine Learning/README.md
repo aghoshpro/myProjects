@@ -2,9 +2,9 @@
 
 This repository contains all the course programming assignments, quizzes, and lecture materials [Machine Learning by Stanford University](https://www.coursera.org/learn/machine-learning/) taught by Andrew Ng on Coursera.
 
-## Take Away
+<!-- ## Take Away
 
-After completion, I gained an intermediate idea of some common machine learning algorithms and how they work.
+After completion, I gained an intermediate idea of some common machine learning algorithms and how they work. -->
 
 ## Certificate
 
@@ -16,46 +16,44 @@ After completion, I gained an intermediate idea of some common machine learning 
 - [Lectures](https://github.com/SHANK885/Machine-Learning-Andrew-Ng/tree/master/Lectures)
 - [Quizzes](https://github.com/SHANK885/Machine-Learning-Andrew-Ng/tree/master/Quizzes) -->
 
-## MindMap
-
 ## Projects
 
-### - [EX - 1](https://github.com/SHANK885/Machine-Learning-Andrew-Ng/tree/master/Assignments/machine-learning-ex1): _Implementing and visualizing linear regression using gradient descent as optimizer. (Accuracy)_
+### [Ex - 1](https://github.com/aghoshpro/Upskill-Myself/tree/main/Machine%20Learning/Projects/machine-learning-ex1) : _Implementing and visualizing linear regression using gradient descent as optimizer. (Accuracy)_
 
-![](/Visualizations/ex1.png)
+<img src="./Visualizations/ex1.png">
 
-### - [EX - 2](https://github.com/SHANK885/Machine-Learning-Andrew-Ng/tree/master/Assignments/machine-learning-ex2) : _Implementing and visualizing logistic regression using fminfunc as optimizer. (Training set accuracy: 89.0 %)_
+- [EX - 2](https://github.com/aghoshpro/Upskill-Myself/tree/main/Machine%20Learning/Projects/machine-learning-ex2) : _Implementing and visualizing logistic regression using fminfunc as optimizer. (Accuracy: 89%)_
 
-![](/Visualizations/ex2.png)
+<img src="./Visualizations/ex2.png">
 
-- [EX - 3](https://github.com/SHANK885/Machine-Learning-Andrew-Ng/tree/master/Assignments/machine-learning-ex3) : _Implementing One vs All logistic regression._
+- [EX - 3](https://github.com/aghoshpro/Upskill-Myself/tree/main/Machine%20Learning/Projects/machine-learning-ex3) : _Implementing One vs All logistic regression._
 
-![](/Visualizations/ex3.png)
+<img src="./Visualizations/ex3.png">
 
-- [EX - 4](https://github.com/SHANK885/Machine-Learning-Andrew-Ng/tree/master/Assignments/machine-learning-ex4) : _Implementing a neural net with some pre trained weights._
+- [EX - 4](https://github.com/aghoshpro/Upskill-Myself/tree/main/Machine%20Learning/Projects/machine-learning-ex4) : _Implementing a neural net with some pre trained weights._
 
-![](/Visualizations/ex4.png)
+<img src="./Visualizations/ex4.png">
 
-- [EX - 5](https://github.com/SHANK885/Machine-Learning-Andrew-Ng/tree/master/Assignments/machine-learning-ex5) : _Learning and tuning hyperparameters._
+- [EX - 5](https://github.com/aghoshpro/Upskill-Myself/tree/main/Machine%20Learning/Projects/machine-learning-ex5) : _Learning and tuning hyperparameters._
 
-![](/Visualizations/ex5.png)
+<img src="./Visualizations/ex5.png">
 
-- [EX - 6](https://github.com/SHANK885/Machine-Learning-Andrew-Ng/tree/master/Assignments/machine-learning-ex6) : _Implementing an linear6SVM._
+- [EX - 6](https://github.com/aghoshpro/Upskill-Myself/tree/main/Machine%20Learning/Projects/machine-learning-ex6) : _Implementing an linear6SVM._
 
-![](/Visualizations/ex6.png)
+<img src="./Visualizations/ex6.png">
 
-- [EX - 7](https://github.com/SHANK885/Machine-Learning-Andrew-Ng/tree/master/Assignments/machine-learning-ex7) : _Implementing a basic K-Means Clustering algorithm._
+- [EX - 7](https://github.com/aghoshpro/Upskill-Myself/tree/main/Machine%20Learning/Projects/machine-learning-ex7) : _Implementing a basic K-Means Clustering algorithm._
 
-![](/Visualizations/ex7.png)
+<img src="./Visualizations/ex7.png">
 
-- [EX - 8](https://github.com/SHANK885/Machine-Learning-Andrew-Ng/tree/master/Assignments/machine-learning-ex8) : _Learning and visualizing testing parameters for a model._
+- [EX - 8](https://github.com/aghoshpro/Upskill-Myself/tree/main/Machine%20Learning/Projects/machine-learning-ex8) : _Learning and visualizing testing parameters for a model._
 
-![](/Visualizations/ex8.png)
+<img src="./Visualizations/ex8.png">
 
 ## Lectures
 
-- [Lecture 1](https://github.com/SHANK885/Machine-Learning-Andrew-Ng/blob/master/Lectures/Lecture1.pdf)
-- [Lecture 2](https://github.com/SHANK885/Machine-Learning-Andrew-Ng/blob/master/Lectures/Lecture2.pdf)
+- [Lecture 1](https://github.com/aghoshpro/Upskill-Myself/blob/main/Machine%20Learning/Lectures/Lecture1.pdf)
+- [Lecture 2](https://github.com/aghoshpro/Upskill-Myself/blob/main/Machine%20Learning/Lectures/Lecture2.pdf)
 - [Lecture 3](https://github.com/SHANK885/Machine-Learning-Andrew-Ng/blob/master/Lectures/Lecture3.pdf)
 - [Lecture 4](https://github.com/SHANK885/Machine-Learning-Andrew-Ng/blob/master/Lectures/Lecture4.pdf)
 - [Lecture 5](https://github.com/SHANK885/Machine-Learning-Andrew-Ng/blob/master/Lectures/Lecture5.pdf)
