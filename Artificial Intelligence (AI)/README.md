@@ -4,7 +4,7 @@ This repository contains all my solutions to the tutorials and projects of the [
 
 ## Certificate
 
-[<img src="./AI.png">](https://www.udacity.com/certificate/e/3ac35480-6955-11ef-9567-a763f21fa593)
+[<img src="./AI.ONG">](https://www.udacity.com/certificate/e/3ac35480-6955-11ef-9567-a763f21fa593)
 
 ## Project 1: Sudoku Solver
 
