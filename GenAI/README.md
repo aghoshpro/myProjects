@@ -4,13 +4,19 @@ This repository contains all my solutions to the tutorials and projects of the [
 
 ## Certificate
 
-**COMING SOON...**
+[<img src='./GenAI.png'>](https://www.udacity.com/certificate/e/3e5c80ce-3c75-11ef-be17-1b40ca41c410)
 
 ## Project 1 - Apply Lightweight Fine-Tuning to a Foundation Model
 
-- Load a foundation model
+- Load a foundation model from HuggingFace.
 - Identify and load a Hugging Face dataset for your particular task
 - Utilize a state-of-the-art technique to adjust the foundation model's weights to meet the needs of your task, using a lightweight, parameter-efficient fine-tuning technique that improves performance faster and more efficiently
+- Performing Inference with a Hugging Face PEFT model
+
+  ```
+  from peft import PeftModel, PeftConfig, AutoPeftModelForSequenceClassification
+  from transformers import AutoModelForSequenceClassification
+  ```
 
 ## Project 2 - Retrieval Augmented Generation(RAG)
 
@@ -22,7 +28,7 @@ This repository contains all my solutions to the tutorials and projects of the [
 
 - Create a segmentation mask by differentiating between the subject and background of an image and create a matrix of pixels indicating the locations of these two components
 - Given a text prompt and the pixel locations of the subject or background, replace part of the image with an AIgenerated image
-- Connect your inpainting pipeline to a web interface that allows users to upload their own images and specify their own text prompts udacity
+- Connect your inpainting pipeline to a web interface that allows users to upload their own images and specify their own text prompts Udacity
 
 ## Project 4 - Personalized Real Estate Agent
 
