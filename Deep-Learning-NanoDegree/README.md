@@ -14,7 +14,7 @@ The task is to classify a given image of a handwritten digit into one of 10 clas
 
 ## Project 02 - Landmark Classification (using CNN)
 
-## Project 03 - Handwritten Classifier Digits using MNIST Data
+## Project 03 - Handwritten Digits Classifier using MNIST Data
 
 The objective is to analyze the sentiment of movie reviews in three different languages - English, French, and Spanish. We have been given 30 movies, 10 in each language, along with their reviews and synopses in separate CSV files named `movie_reviews_eng.csv`, `movie_reviews_fr.csv`, and `movie_reviews_sp.csv`.
 
