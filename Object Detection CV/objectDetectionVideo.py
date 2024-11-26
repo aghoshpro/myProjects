@@ -3,7 +3,7 @@ import cv2
 video = cv2.VideoCapture('Input 02.mp4') #input video path
 
 # Parameters for tuning
-detectionThresholdValue = 0.55 #if the model detects a PERSON with equal or more than 55% accuracy then it will be shown in the output
+detectionThresholdValue = 0.65 #if the model detects a PERSON with equal or more than 55% accuracy then it will be shown in the output
 
 # Video Output Ratio
 video.set(3, 1280)

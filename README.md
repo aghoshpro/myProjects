@@ -43,9 +43,9 @@ I analyzed disaster data to build a model for an API that classifies disaster me
 
 ## 5. Real World Object Detection using COCO dataset
 
-Detecting objects with **60%** using pre-trained `MobileNet-SSD v3` model and **183 labels** or **classes** from `COCO 2017` dataset. User can also use webcam to detect objects around their surroundings by running `objectDetectionWebCam.py`
+Detecting objects with **65% confidence** using pre-trained `MobileNet-SSD v3` model and **183 labels** or **classes** from `COCO 2017` dataset. User can also use webcam to detect objects around their surroundings by running `objectDetectionWebCam.py`
 
-<img src="./Object Detection CV/output2.mp4">
+<img src="./Object Detection CV/FIFA.gif">
 
 ## 4. Sip & Script
 
