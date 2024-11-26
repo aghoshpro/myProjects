@@ -1,0 +1,29 @@
+name: envALL
+channels:
+- defaults
+- conda-forge
+- pytorch
+dependencies:
+- python=3.11
+- beautifulsoup4>=4.5.3
+- html5lib>=0.9999999
+- h5py>=3.8.0
+- ipython>=5.2.0
+- jupyter>=1.0.0
+- Keras>=2.0.5
+- matplotlib>=3.3.4
+- numpy>=1.13.0
+- pandas>=0.19.2
+- nltk>=3.2.2
+- spacy
+- plotly
+- tqdm>=4.65.0
+- wordcloud
+- colorama
+- requests>=2.31.0
+- scikit-learn>=0.18.1
+- tensorflow>=1.2.0
+- scipy>=1.10.1
+- jedi
+- pip
+prefix: Z:\workspace_datascience\
