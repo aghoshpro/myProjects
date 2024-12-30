@@ -15,6 +15,7 @@ rasterio
 folium
 contextily
 xarray
+rioxarray
 netcdf4
 h5netcdf
 fiona
@@ -25,3 +26,7 @@ nltk
 spacy
 wordcloud
 requests
+psycopg2-binary
+sqlalchemy
+torch==2.5
+torchvision==0.20

@@ -77,7 +77,23 @@ The [dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-an
 
 ---
 
-## Environment Setup
+## Local Environment Setup
+
+## Using Docker [best customization]
+
+- Go to location using `cmd` or `terminal`
+
+  ```
+  cd myDockerPy
+  ```
+
+  ```
+  docker compose -f docker-compose.yml up
+  ```
+
+- Put the desired notebook in the `notebook` directory along with the data in the `data` folder.
+
+## Using Conda
 
 Open your favourite `terminal` or `cmd` to download the dependencies listed in `envALL.yml`
 
@@ -85,6 +101,7 @@ Open your favourite `terminal` or `cmd` to download the dependencies listed in `
 conda env create -f envALL.yml
 ```
 
+<!--
 ## Pytorch Installation (with GPU)
 
 ### 0. Guide to local setup using GPU: https://pytorch.org/get-started/locally/
@@ -188,7 +205,7 @@ True
 
 ```
 (env_torch) D:\workspace_Data_Science>conda install pandas matplotlib seaborn scikit-learn
-```
+``` -->
 
 ## Additional Data
 
