@@ -4,6 +4,7 @@ pandas
 geopandas
 matplotlib
 seaborn
+plotly
 scikit-learn
 jupyter
 rasdapy3
@@ -22,3 +23,5 @@ tqdm
 colormap
 nltk
 spacy
+wordcloud
+requests
