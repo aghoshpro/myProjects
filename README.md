@@ -65,11 +65,13 @@ The [dataset](https://www.kaggle.com/c/dog-breed-identification) contains 20000+
 
 #### Data - [CIFAR10](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
 
+- Check out the jupyter [notebook](https://github.com/aghoshpro/myProjects/blob/main/Deep-Learning-NanoDegree/CIFAR-10_Image_Classifier-STARTER.ipynb)
+
 ## 1. Heart Disease Prediction using Regression
 
 **Question. Can the presence of heart disease in the patient be predicted based on their clinical parameters?**
 
-The [dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset) contains 76 attributes, but all published experiments refer to using a subset of 14 of them. It is part of Cleveland database that has been used by ML researchers to this date and orginated from UCI Machine Learning [Repository](https://archive.ics.uci.edu/dataset/45/heart+disease).
+The [dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset) contains 76 attributes, but all published experiments refer to using a subset of 14 of them. It is part of Cleveland database that has been used by ML researchers to this date and originated from UCI Machine Learning [Repository](https://archive.ics.uci.edu/dataset/45/heart+disease).
 
 ---
 
