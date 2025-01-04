@@ -1,5 +1,31 @@
 # Data Science Projects
 
+## Local Environment Setup
+
+### Using Docker 🐳
+
+- Go to location using `cmd` or `terminal`
+
+  ```sh
+  cd env_docker
+  ```
+
+  ```sh
+  docker compose -f docker-compose.yml up
+  ```
+
+- Put the desired notebook in the `notebook` directory along with the data in the `data` folder.
+
+### Using Conda 🐍
+
+- Open your favourite `terminal` or `cmd` to download the dependencies listed in `envALL.yml`
+
+  ```sh
+  conda env create -f envALL.yml
+  ```
+
+---
+
 ## 11. Sparkify - Detection of User Churn using PySpark
 
 Forecasting churn or attrition rates presents a complex and prevalent challenge that data scientists and analysts frequently face in customer-oriented enterprises.
@@ -74,34 +100,6 @@ The [dataset](https://www.kaggle.com/c/dog-breed-identification) contains 20000+
 The [dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset) contains 76 attributes, but all published experiments refer to using a subset of 14 of them. It is part of Cleveland database that has been used by ML researchers to this date and originated from UCI Machine Learning [Repository](https://archive.ics.uci.edu/dataset/45/heart+disease).
 
 ---
-
----
-
----
-
-## Local Environment Setup
-
-## Using Docker [best customization]
-
-- Go to location using `cmd` or `terminal`
-
-  ```
-  cd myDockerPy
-  ```
-
-  ```
-  docker compose -f docker-compose.yml up
-  ```
-
-- Put the desired notebook in the `notebook` directory along with the data in the `data` folder.
-
-## Using Conda
-
-Open your favourite `terminal` or `cmd` to download the dependencies listed in `envALL.yml`
-
-```sh
-conda env create -f envALL.yml
-```
 
 <!--
 ## Pytorch Installation (with GPU)
