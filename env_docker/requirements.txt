@@ -2,6 +2,7 @@ pip
 numpy
 pandas
 geopandas
+pyarrow
 matplotlib
 seaborn
 plotly
@@ -30,5 +31,6 @@ psycopg2-binary
 sqlalchemy
 segno
 qrcode-artistic
+lazypredict
 torch==2.5
 torchvision==0.20
