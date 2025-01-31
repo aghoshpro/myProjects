@@ -45,18 +45,17 @@ Freezing is the process to identify and save all of required things (graph, weig
 ## Input
 
 ### Input 02
-
-<video src='Input02.mp4' width=500></video>
+https://github.com/user-attachments/assets/6b50fbb0-798c-476b-8388-08923925fa73
 
 ## Output
 
 ### Output 01 (at 55% detection accuracy)
 
-<video src='output1.mp4' width=500></video>
+https://github.com/user-attachments/assets/fe0a2d1d-4be5-463f-ac91-6398b4d85ea9
 
 ### Output 02 (at 60% detection accuracy)
 
-<video src='output2.mp4' width=500></video>
+https://github.com/user-attachments/assets/449314e7-2ff7-4a48-a63e-bd476c8685ee
 
 ### WebCam Output (at 60% detection accuracy)
 
