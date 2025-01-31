@@ -2,6 +2,23 @@
 
 ## Local Environment Setup
 
+### Using Python `venv` 🐍
+
+- Go to location using `cmd` or `terminal`
+
+  ```bash
+  python -m venv myvenv
+  ```
+
+  ```sh
+  # On Windows
+  .\myvenv\Scripts\activate --OR-- source myvenv/bin/activate # On Linux or Mac
+  ```
+
+  ```sh
+  pip install -r requirements.txt
+  ```
+
 ### Using Docker 🐳
 
 - Go to location using `cmd` or `terminal`
@@ -16,7 +33,7 @@
 
 - Put the desired notebook in the `notebook` directory along with the data in the `data` folder.
 
-### Using Conda 🐍
+### Using Conda 🧶
 
 - Open your favourite `terminal` or `cmd` to download the dependencies listed in `envALL.yml`
 
@@ -67,9 +84,13 @@ The [MNIST](https://en.wikipedia.org/wiki/MNIST_database) is a standard dataset 
 
 I analyzed disaster data to build a model for an API that classifies disaster messages by applying my data engineering skills. I have created a ML pipeline to categorize real messages that were sent during disaster events so that the messages could be sent to an appropriate disaster relief agency. The project includes a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data.
 
+- Check out the [app](https://github.com/aghoshpro/myProjects/tree/main/Data-Scientist-Nanodegree/Project%202%20-%20Disaster%20Response%20App#project-2---disaster-response-pipeline-project)
+
 ## 5. Real World Object Detection using COCO dataset
 
 Detecting objects with **65% confidence** using pre-trained `MobileNet-SSD v3` model and **183 labels** or **classes** from `COCO 2017` dataset. User can also use webcam to detect objects around their surroundings by running `objectDetectionWebCam.py`
+
+- Check out the [project](https://github.com/aghoshpro/myProjects/tree/main/Object%20Detection%20CV#object-detection-using-opencv)
 
 <img src="./Object Detection CV/FIFA.gif">
 
@@ -89,7 +110,9 @@ The [dataset](https://www.kaggle.com/c/dog-breed-identification) contains 20000+
 
 ## 2. Multi Class Image Classifier
 
-#### Data - [CIFAR10](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
+Building a neural network using PyTorch to evaluate the CIFAR-10 dataset. It takes an input image and predicts the class out of 10 classes from CIFAR with accuracy **52%**.
+
+- Data - [CIFAR10](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
 
 - Check out the jupyter [notebook](https://github.com/aghoshpro/myProjects/blob/main/Deep-Learning-NanoDegree/CIFAR-10_Image_Classifier-STARTER.ipynb)
 

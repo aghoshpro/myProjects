@@ -1,4 +1,4 @@
-# Real Life Object Detection
+# Object Detection using OpenCV
 
 **Team - WASP_AS_M1_Umeå1**: Arka Ghosh, Divya Baura, Joannes Vermant, Julian Alfredo Mendez and Sabine Houy
 
@@ -33,25 +33,30 @@ OpenCV needs a configuration file to import object detection models from TensorF
 
 ## Model
 
-[**MobileNet-SSD v3**](https://github.com/opencv/opencv/wiki/TensorFlow-Object-Detection-API): SSD (Single Shot MultiBox Detector) is a popular algorithm in object detection which is a single convolution network that learns to predict bounding box locations and classify these locations in one pass. Hence, SSD can be trained end-to-end. The SSD network consists of base architecture (MobileNet in this case) followed by several convolution layers.
+[**MobileNet-SSD v3**](https://github.com/opencv/opencv/wiki/TensorFlow-Object-Detection-API) - Single Shot MultiBox Detector (SSD) is a popular algorithm in object detection which is a single convolution network that learns to predict bounding box locations and classify these locations in one pass. Hence, SSD can be trained end-to-end. The SSD network consists of base architecture (MobileNet in this case) followed by several convolution layers.
 
 By using SSD, we only need to take one single shot to detect multiple objects within the image, while regional proposal network (RPN) based approaches such as R-CNN series that need two shots, one for generating region proposals, one for detecting the object of each proposal. Thus, SSD is much faster compared with two-shot RPN-based approaches
 
-Significance of ‘**ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt**’
-This file is a pre-trained Tensorflow model and has already been trained on the COCO dataset.
+This file `ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt` is a pre-trained Tensorflow model and has already been trained on the COCO dataset.
 
-Significance of ‘**frozen_inference_graph.pb**’?
-Freezing is the process to identify and save all of required things(graph, weights etc) in a single file that you can easily use. Frozen graphs are commonly used for inference in TensorFlow and are stepping stones for inference for other frameworks
+Significance of ?
+Freezing is the process to identify and save all of required things (graph, weights etc) in a single file e.g., `frozen_inference_graph.pb` that can be used later. Frozen graphs are commonly used for inference in TensorFlow and are stepping stones for inference for other frameworks
+
+## Input
+
+### Input 02
+
+<video src='Input02.mp4' width=500></video>
 
 ## Output
 
 ### Output 01 (at 55% detection accuracy)
 
-https://user-images.githubusercontent.com/71174892/196672496-30e54277-dfee-425e-add1-73aedeaefccd.mp4
+<video src='output1.mp4' width=500></video>
 
 ### Output 02 (at 60% detection accuracy)
 
-https://user-images.githubusercontent.com/71174892/196671666-5cba1fa3-e1b7-4f75-83d9-a55d4e4aabe0.mp4
+<video src='output2.mp4' width=500></video>
 
 ### WebCam Output (at 60% detection accuracy)
 
