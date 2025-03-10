@@ -2,6 +2,8 @@ pip
 numpy
 pandas
 geopandas
+polars
+pyspark
 pyarrow
 matplotlib
 seaborn
@@ -20,6 +22,7 @@ rioxarray
 netcdf4
 h5netcdf
 fiona
+faker
 sparqlwrapper
 tqdm
 colormap
@@ -29,8 +32,14 @@ wordcloud
 requests
 psycopg2-binary
 sqlalchemy
+python-dotenv
 segno
 qrcode-artistic
 lazypredict
+drawdata
+anywidget
+anytree
+typing 
+crawl4ai
 torch==2.5
 torchvision==0.20

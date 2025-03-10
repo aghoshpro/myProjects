@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+tempCodeRunnerFile.py
+
+# Virtual Environment
+.env
+.venv/
+venv/
+.chatbot/
+chatbot/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+
+# env files (can opt-in for committing if needed)
+.env*
