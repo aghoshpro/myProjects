@@ -1,8 +1,11 @@
-# Capstone Project - Detection of User Churn @ Sparkify.org
+# Detecting User Churns @ Sparkify
 
 ## Project Motivation
 
 Forecasting `churn` or attrition rates presents a complex and prevalent challenge that data scientists and analysts frequently face in customer-oriented enterprises. The capacity to adeptly handle extensive datasets using Spark is among the most sought-after competencies in the data domain. Also to convey the findings of the project to company shareholder in a manner so they can understand.
+
+- Check out my [myBlogpost](https://medium.com/@aghoshpro/beat-the-churn-how-were-using-pyspark-ml-to-keep-the-music-streaming-2b202dca6aaa) to understand the project and it's result in detail.
+
 
 ## Project Overview
 
@@ -34,8 +37,6 @@ We select our winning model, a tweaked version of the Logistic Regression model.
   <img src="./Visuals/4.png">
 - ### Different Operating System used by users @ Sparkify.org
   <img src="./Visuals/8.png">
-
-## Medium Blog
 
 Check out my [myBlogpost](https://medium.com/@aghoshpro/beat-the-churn-how-were-using-pyspark-ml-to-keep-the-music-streaming-2b202dca6aaa) to understand the project in detail.
 
