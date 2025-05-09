@@ -1,0 +1,175 @@
+theia@theiadocker-aghoshpro:/home/project$ mysql --host=172.21.191.8 --port=3306 --user=root --password=fjfgSThSwEmdcogZFbBx03Pi
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 2578
+Server version: 8.0.37 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> SOURCE billingdata.sql;
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 132000 rows affected (1.60 sec)
+Records: 132000  Duplicates: 0  Warnings: 0
+
+mysql> SHOW TABLES;
++-------------------+
+| Tables_in_billing |
++-------------------+
+| billdata          |
++-------------------+
+1 row in set (0.00 sec)
+
+mysql> SELECT TABLE_NAME, DATA_LENGTH FROM information_schema.TABLES WHERE TABLE_SCHEMA = "billing";
++------------+-------------+
+| TABLE_NAME | DATA_LENGTH |
++------------+-------------+
+| billdata   |     6832128 |
++------------+-------------+
+1 row in set (0.00 sec)
+
+mysql> SELECT * FROM `billdata` WHERE billedamount > 19999;
++--------+------------+--------------+---------+
+| billid | customerid | billedamount | monthid |
++--------+------------+--------------+---------+
+|   8509 |        285 |        20000 |   20096 |
+|  68268 |        559 |        20000 |   20146 |
+|  81622 |        643 |        20000 |   20157 |
+|  84858 |        317 |        20000 |   20161 |
+|  89353 |        871 |        20000 |   20163 |
+| 102682 |        937 |        20000 |   20174 |
+| 109574 |        386 |        20000 |  201810 |
+| 121844 |        777 |        20000 |  201910 |
++--------+------------+--------------+---------+
+8 rows in set (0.13 sec)
+
+mysql> CREATE INDEX billedamount ON billdata(billedamount);
+Query OK, 0 rows affected (1.24 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> SELECT * FROM `billdata` WHERE billedamount > 19999;
++--------+------------+--------------+---------+
+| billid | customerid | billedamount | monthid |
++--------+------------+--------------+---------+
+|   8509 |        285 |        20000 |   20096 |
+|  68268 |        559 |        20000 |   20146 |
+|  81622 |        643 |        20000 |   20157 |
+|  84858 |        317 |        20000 |   20161 |
+|  89353 |        871 |        20000 |   20163 |
+| 102682 |        937 |        20000 |   20174 |
+| 109574 |        386 |        20000 |  201810 |
+| 121844 |        777 |        20000 |  201910 |
++--------+------------+--------------+---------+
+8 rows in set (0.00 sec)
+
+mysql> SOURCE billingdata.sql;
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 132000 rows affected (1.60 sec)
+Records: 132000  Duplicates: 0  Warnings: 0
+
+mysql> SHOW TABLES;
++-------------------+
+| Tables_in_billing |
++-------------------+
+| billdata          |
++-------------------+
+1 row in set (0.00 sec)
+
+mysql> SELECT TABLE_NAME, DATA_LENGTH FROM information_schema.TABLES WHERE TABLE_SCHEMA = "billing";
++------------+-------------+
+| TABLE_NAME | DATA_LENGTH |
++------------+-------------+
+| billdata   |     6832128 |
++------------+-------------+
+1 row in set (0.00 sec)
+
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> SELECT * FROM `billdata` WHERE billedamount > 19999;
++--------+------------+--------------+---------+
+| billid | customerid | billedamount | monthid |
++--------+------------+--------------+---------+
+|   8509 |        285 |        20000 |   20096 |
+|  68268 |        559 |        20000 |   20146 |
+|  81622 |        643 |        20000 |   20157 |
+|  84858 |        317 |        20000 |   20161 |
+|  89353 |        871 |        20000 |   20163 |
+| 102682 |        937 |        20000 |   20174 |
+| 109574 |        386 |        20000 |  201810 |
+| 121844 |        777 |        20000 |  201910 |
++--------+------------+--------------+---------+
+8 rows in set (0.13 sec)
+
+mysql> CREATE INDEX billedamount ON billdata(billedamount);
+Query OK, 0 rows affected (1.24 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> SELECT * FROM `billdata` WHERE billedamount > 19999;
++--------+------------+--------------+---------+
+| billid | customerid | billedamount | monthid |
++--------+------------+--------------+---------+
+|   8509 |        285 |        20000 |   20096 |
+|  68268 |        559 |        20000 |   20146 |
+|  81622 |        643 |        20000 |   20157 |
+|  84858 |        317 |        20000 |   20161 |
+|  89353 |        871 |        20000 |   20163 |
+| 102682 |        937 |        20000 |   20174 |
+| 109574 |        386 |        20000 |  201810 |
+| 121844 |        777 |        20000 |  201910 |
++--------+------------+--------------+---------+
+8 rows in set (0.00 sec)
+
+mysql> 
+mysql> 
+mysql> 
+
+mysql> SHOW engines;
++--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
+| Engine             | Support | Comment                                                        | Transactions | XA   | Savepoints |
++--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
+| ndbcluster         | NO      | Clustered, fault-tolerant tables                               | NULL         | NULL | NULL       |
+| MEMORY             | YES     | Hash based, stored in memory, useful for temporary tables      | NO           | NO   | NO         |
+| InnoDB             | DEFAULT | Supports transactions, row-level locking, and foreign keys     | YES          | YES  | YES        |
+| PERFORMANCE_SCHEMA | YES     | Performance Schema                                             | NO           | NO   | NO         |
+| MyISAM             | YES     | MyISAM storage engine                                          | NO           | NO   | NO         |
+| FEDERATED          | NO      | Federated MySQL storage engine                                 | NULL         | NULL | NULL       |
+| ndbinfo            | NO      | MySQL Cluster system information storage engine                | NULL         | NULL | NULL       |
+| MRG_MYISAM         | YES     | Collection of identical MyISAM tables                          | NO           | NO   | NO         |
+| BLACKHOLE          | YES     | /dev/null storage engine (anything you write to it disappears) | NO           | NO   | NO         |
+| CSV                | YES     | CSV storage engine                                             | NO           | NO   | NO         |
+| ARCHIVE            | YES     | Archive storage engine                                         | NO           | NO   | NO         |
++--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
+11 rows in set (0.01 sec)
+
+mysql> SELECT ENGINE 
+    -> FROM information_schema.TABLES
+    -> WHERE TABLE_SCHEMA = 'billing'
+    -> AND TABLE_NAME = 'billdata';
++--------+
+| ENGINE |
++--------+
+| InnoDB |
++--------+
+1 row in set (0.00 sec)
