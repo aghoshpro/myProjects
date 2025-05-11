@@ -1,4 +1,4 @@
-myenv/
+myenv
 __pycache__/
 *.pyc
 *.pyo
@@ -6,3 +6,5 @@ __pycache__/
 *.log
 *.sqlite3
 *.ipynb_checkpoints/
+osmnx
+cache
