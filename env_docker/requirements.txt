@@ -9,9 +9,14 @@ pyarrow
 matplotlib
 seaborn
 plotly
+altair 
+panel
+hvplot
+perfplot
+scipy
+statsmodels  
 scikit-learn
 jupyter
-rasdapy3
 protobuf==3.20.*
 affine
 shapely
@@ -23,7 +28,6 @@ networkx
 xarray
 rioxarray
 netcdf4
-h5netcdf
 fiona
 faker
 sparqlwrapper

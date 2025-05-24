@@ -177,7 +177,6 @@ Build cuda_11.7.r11.7/compiler.31294372_0
     - torchaudio
     - torchvision
 
-
 The following packages will be downloaded:
 
     package                    |            build

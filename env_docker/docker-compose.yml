@@ -2,10 +2,11 @@ version: '3.8'
 
 services:
   myenvx:
+    container_name: myenv
     build:
       context: .
     ports:
-      - "8888:8888"  # Expose Jupyter Notebook
+      - "8888:8888" # Expose Jupyter Notebook
     volumes:
       - ./notebooks:/home/myenv/notebooks
       - ./requirements.txt:/home/myenv/requirements.txt
