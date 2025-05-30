@@ -1,47 +1,8 @@
 # Data Science Projects
 
-## Local Environment Setup
+### Setup Local Environment
 
-### Using Python `venv` 🐍
-
-- Go to location using `cmd` or `terminal`
-
-  ```bash
-  python -m venv myvenv
-  ```
-
-  ```sh
-  # On Windows
-  .\myvenv\Scripts\activate --OR-- source myvenv/bin/activate # On Linux or Mac
-  ```
-
-  ```sh
-  pip install -r requirements.txt
-  ```
-
-### Using Docker 🐳
-
-- Go to location using `cmd` or `terminal`
-
-  ```sh
-  cd env_docker
-  ```
-
-  ```sh
-  docker compose -f docker-compose.yml up
-  ```
-
-- Put the desired notebook in the `notebook` directory along with the data in the `data` folder.
-
-### Using Conda 🧶
-
-- Open your favourite `terminal` or `cmd` to download the dependencies listed in `envALL.yml`
-
-  ```sh
-  conda env create -f envALL.yml
-  ```
-
----
+- Check the following [link](https://github.com/aghoshpro/myProjects?tab=coc-ov-file) for local environment setup for data science projects
 
 ## 11. Sparkify - Detection of User Churn using PySpark
 
