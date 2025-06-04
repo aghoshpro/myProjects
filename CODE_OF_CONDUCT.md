@@ -15,6 +15,34 @@
   pip install -r requirements.txt
   ```
 
+### Using Docker 🐳
+
+- Go to location using `cmd` or `terminal`
+
+  ```sh
+  cd env_docker
+  ```
+
+  ```sh
+  docker compose -f docker-compose.yml up
+  ```
+
+  - Press `Ctrl+C` to stop and then run the following
+
+  ```sh
+  docker-compose -f docker-compose.yml down --volumes --rmi all 
+  ```
+
+- Put the desired notebook in the `notebook` directory along with the data in the `data` folder.
+
+### Using Conda 🧶
+
+- Open your favourite `terminal` or `cmd` to download the dependencies listed in `envALL.yml`
+
+  ```sh
+  conda env create -f envALL.yml
+  ```
+
 ### Using `uv`
 
 - For Linux and macOS
@@ -76,28 +104,6 @@
     ```sh
     uv run main.py
     ```
-
-### Using Docker 🐳
-
-- Go to location using `cmd` or `terminal`
-
-  ```sh
-  cd env_docker
-  ```
-
-  ```sh
-  docker compose -f docker-compose.yml up
-  ```
-
-- Put the desired notebook in the `notebook` directory along with the data in the `data` folder.
-
-### Using Conda 🧶
-
-- Open your favourite `terminal` or `cmd` to download the dependencies listed in `envALL.yml`
-
-  ```sh
-  conda env create -f envALL.yml
-  ```
 
 ## References
 

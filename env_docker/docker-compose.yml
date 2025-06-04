@@ -1,8 +1,8 @@
 version: '3.8'
 
 services:
-  myenvx:
-    container_name: myenv
+  sandbox:
+    container_name: sandbox
     build:
       context: .
     ports:
